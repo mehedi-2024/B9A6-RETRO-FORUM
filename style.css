@@ -1,0 +1,35 @@
+i{
+    font-size: 1.3rem;
+}
+.nav-logo>a{
+    padding: 10px;
+    border-radius: 50%;
+    border: 1px solid rgb(90, 88, 88);
+    background-color: rgb(247, 242, 242);
+    width: 2.2rem;
+    height: 2.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-logo>a:hover i{
+    font-size: .7rem;
+}
+a>i{
+    font-size: 1rem;
+}
+tr{
+    display: flex;
+    gap: 70px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+    color: rgb(55, 53, 53);
+    font-weight: 500;
+}
+
+@media (max-width:650px){
+    .nav-logo>a{
+        display: none;
+    }
+}
